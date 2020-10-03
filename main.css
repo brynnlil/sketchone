@@ -1,0 +1,362 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: brown;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table {
+	position: absolute;
+	bottom: 0;
+	width: 950px;
+	height: 500px;
+	background-color:lightgray; 
+	z-index: 1;
+}
+
+.vase {
+	position: absolute;
+	bottom: 100px;
+	left: 550px;
+	width: 150px;
+	height: 150px; 
+	background-color: gray;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.pumpkin {
+position: absolute;
+	bottom: 130px;
+	left: 300px;
+	width: 175px;
+	height: 175px; 
+	background-color: #3d2b1f;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.pumpkintop {
+position: absolute;
+	bottom: 210px;
+	left: 355px;
+	width: 20px;
+	height: 20px; 
+	background-color: #3d2b1f;
+	border: black solid;
+	border-width: 5px;
+	border-radius: 50%;
+	z-index: 4;
+}
+
+.pumpkintop2 {
+position: absolute;
+	bottom: 155px;
+	left: 315px;
+	width: 120px;
+	height: 120px; 
+	background-color: #3d2b1f;
+	border: black solid;
+	border-width: 5px;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+
+.rose1 {
+position: absolute;
+	bottom: 100px;
+	left: 500px;
+	width: 75px;
+	height: 75px; 
+	background-color: #fe6f5e;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose2 {
+position: absolute;
+	bottom: 120px;
+	left: 550px;
+	width: 70px;
+	height: 70px; 
+	background-color: #a52a2a; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose3 {
+position: absolute;
+	bottom: 180px;
+	left: 535px;
+	width: 70px;
+	height: 70px; 
+	background-color: #ff9966; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose4 {
+position: absolute;
+	bottom: 210px;
+	left: 575px;
+	width: 75px;
+	height: 75px; 
+	background-color: #cb4154; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose5 {
+position: absolute;
+	bottom: 180px;
+	left: 700px;
+	width: 75px;
+	height: 75px; 
+	background-color: #a52a2a; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose6 {
+position: absolute;
+	bottom: 100px;
+	left: 590px;
+	width: 75px;
+	height: 75px; 
+	background-color: #e97451; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose7 {
+position: absolute;
+	bottom: 100px;
+	left: 675px;
+	width: 75px;
+	height: 75px; 
+	background-color: #fe6f5e;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose8 {
+position: absolute;
+	bottom: 170px;
+	left: 500px;
+	width: 70px;
+	height: 70px; 
+	background-color: #a52a2a; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose9 {
+position: absolute;
+	bottom: 150px;
+	left: 620px;
+	width: 70px;
+	height: 70px; 
+	background-color: #ff9966; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose10 {
+position: absolute;
+	bottom: 45px;
+	left: 600px;
+	width: 75px;
+	height: 75px; 
+	background-color: #cb4154; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose11 {
+position: absolute;
+	bottom: 250px;
+	left: 500px;
+	width: 75px;
+	height: 75px; 
+	background-color: #a52a2a; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.rose12 {
+position: absolute;
+	bottom: 45px;
+	left: 500px;
+	width: 75px;
+	height: 75px; 
+	background-color: #e97451; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower1 {
+	position: absolute;
+	bottom: 45px;
+	left: 450px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower2 {
+	position: absolute;
+	bottom: 125px;
+	left: 500px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower3 {
+	position: absolute;
+	bottom: 100px;
+	left: 600px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower4 {
+	position: absolute;
+	bottom: 175px;
+	left: 620px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower5 {
+	position: absolute;
+	bottom: 120px;
+	left: 575px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower6 {
+	position: absolute;
+	bottom: 200px;
+	left: 710px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower7 {
+	position: absolute;
+	bottom: 220px;
+	left: 540px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower8 {
+	position: absolute;
+	bottom: 250px;
+	left: 695px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.flower9 {
+	position: absolute;
+	bottom: 265px;
+	left: 640px;
+	width: 25px;
+	height: 25px; 
+	background-color: white; 
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.oval1 {
+	position: absolute;
+	bottom: 190px;
+	left:580px;
+  height: 250px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50%;
+  z-index: 2;
+
+}
+
+.oval2 {
+	position: absolute;
+	bottom: 5px;
+	left:580px;
+  height: 250px;
+  width: 70px;
+  background-color: green;
+  border-radius: 50%;
+  z-index: 2;
+
+}
+
+.oval3 {
+	position: absolute;
+	bottom: 145px;
+	left:650px;
+  height: 50px;
+  width: 200px;
+  background-color: green;
+  border-radius: 50%;
+  z-index: 2;
+
+}
+
+.oval4 {
+	position: absolute;
+	bottom: 95px;
+	left:400px;
+  height: 50px;
+  width: 190px;
+  background-color: green;
+  border-radius: 50%;
+  z-index: 2;
+
+}
+
+
+
+
+
